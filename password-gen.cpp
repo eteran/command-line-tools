@@ -85,8 +85,8 @@ int main(int argc, char *argv[]) {
 	}
 	
 	std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(1, set.size() - 1);
+	std::mt19937 gen(rd());
+	std::uniform_int_distribution<> dis(1, set.size() - 1);
 	
 	for(int n = 0; n < count; ++n) {
 		int punctuation_count = 0;
